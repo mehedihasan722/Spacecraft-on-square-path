@@ -32,6 +32,8 @@ body::before {
   animation-duration: 2s;
   -webkit-animation-name: squarePath;
   animation-name: squarePath;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes squarePath {
